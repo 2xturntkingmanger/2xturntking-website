@@ -340,6 +340,11 @@ footer h2{
     text-decoration:none;
 }
 
+.logo img{
+    height:60px;
+    width:auto;
+    display:block;
+}
 .nav-links{
     display:flex;
     gap:25px;
