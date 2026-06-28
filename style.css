@@ -27,7 +27,7 @@ body{
 }
 
 #loader h1{
-  font-size:4rem;
+ font-size:2.5rem;
   color:#b366ff;
   text-shadow:0 0 20px #8a2be2;
 }
@@ -35,7 +35,7 @@ body{
 #loader p{
   margin-top:15px;
   color:#ffd54f;
-  font-size:1.2rem;
+  font-size:1rem;
 }
 
 .hero{
