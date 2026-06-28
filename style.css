@@ -315,3 +315,58 @@ footer h2{
 }
 
 }
+/* ========================= */
+/* NAVIGATION BAR */
+/* ========================= */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 40px;
+    background:rgba(0,0,0,.75);
+    backdrop-filter:blur(15px);
+    z-index:9998;
+}
+
+.logo{
+    color:white;
+    font-size:1.5rem;
+    font-weight:800;
+    text-decoration:none;
+}
+
+.nav-links{
+    display:flex;
+    gap:25px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#b366ff;
+}
+
+@media(max-width:768px){
+
+.navbar{
+    flex-direction:column;
+    padding:15px;
+}
+
+.nav-links{
+    margin-top:10px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+}
